@@ -1,0 +1,203 @@
+﻿.home {
+    margin: 0;
+    padding: 0;
+    background: url('../Images/b2.jpg') center bottom no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    padding: 70px 30px;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;
+    border-radius: 25px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .loginbox input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .loginbox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .loginbox a:hover {
+        color: #ffc107;
+    }
+
+.registerbox {
+    width: 25%;
+    height: 60%;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;
+}
+
+.registerbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.registerbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .registerbox input[type="text"], input[type="password"], input[type="email"], input[type="conPassword"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .registerbox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .registerbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+
+.registerbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .registerbox a:hover {
+        color: #ffc107;
+    }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .registerbox {
+        width: 70%;
+        height: 85%;
+    }
+    .loginbox {
+        width: 70%;
+        height: 65%;
+    }
+}
+
+@media only screen and (max-height: 840px) {
+    .registerbox {
+        width: 70%;
+        height: 70%;
+        margin-top:40px;
+    }
+
+        .registerbox input[type="text"], input[type="password"], input[type="email"], input[type="conPassword"] {
+           padding:0; 
+        }
+
+        .registerbox input[type="submit"] {
+            position: relative;
+            float: left;
+        }
+
+    .loginbox {
+        width: 70%;
+        height: 70%;
+        margin-top: 40px;
+        align-content: center;
+    }
+
+        .loginbox input[type="text"], input[type="password"] {
+            width: 200px;
+        }
+
+        .loginbox input[type="submit"] {
+            position:relative;
+            float: left;
+        }
+
+}
+
+/* Tablet Styles 
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .registerbox {
+        background-color: #F5CF8E; /* Yellow 
+    }
+}*/
