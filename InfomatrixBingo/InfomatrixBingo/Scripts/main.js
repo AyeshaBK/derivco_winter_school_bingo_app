@@ -24,7 +24,6 @@ $('document').ready(function () {
 
 
 
-    //check if there are still balls to be called or not
 
 
     $('#loadBall').mouseenter(function () {
